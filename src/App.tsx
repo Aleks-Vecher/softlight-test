@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import { MainTemplate } from "./components/MainTemplate";
 
 function App() {
-
-
   return (
     <div>
-    Hello
+      <MainTemplate />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
